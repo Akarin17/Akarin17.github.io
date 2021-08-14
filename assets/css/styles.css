@@ -248,6 +248,63 @@ img{
   border-radius: .5rem;
 }
 
+/* ===== HOBBY =====*/
+
+.hobby__container{
+  row-gap: 2rem;
+  text-align: center;
+}
+.hobby__subtitle{
+  margin-bottom: var(--mb-2);
+}
+.hobby__text{
+  margin-bottom: var(--mb-4);
+}
+.hobby__data{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: var(--font-semi);
+  padding: .5rem 1rem;
+  margin-bottom: var(--mb-4);
+  border-radius: .5rem;
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+.hobby__icon{
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+  color: var(--first-color);
+}
+.hobby__names{
+  display: flex;
+  align-items: center;
+}
+.hobby__bar{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--first-color);
+  height: .25rem;
+  border-radius: .5rem;
+  z-index: var(--z-back);
+}
+.hobby__1{
+  width: 80%;
+}
+.hobby__2{
+  width: 85%;
+}
+.hobby__3{
+  width: 20%;
+}
+.hobby__4{
+  width: 70%;
+}
+.hobby__img{
+  border-radius: .5rem;
+}
+
 /* ===== SKILLS =====*/
 .skills__container{
   row-gap: 2rem;
@@ -288,16 +345,16 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
+.skills__tidur{
   width: 95%;
 }
-.skills__css{
+.skills__makan{
   width: 85%;
 }
-.skills__js{
+.skills__scroll{
   width: 65%;
 }
-.skills__ux{
+.skills__penyimak{
   width: 85%;
 }
 .skills__img{
@@ -319,26 +376,6 @@ img{
 }
 .work__img img:hover{
   transform: scale(1.1);
-}
-
-/* ===== CONTACT =====*/
-.contact__input{
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: .5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
-}
-.contact__button{
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
 }
 
 /* ===== FOOTER =====*/

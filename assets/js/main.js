@@ -58,4 +58,3 @@ sr.reveal('.skills__img',{delay: 600});
 
 /*SCROLL WORK*/
 sr.reveal('.work__img',{interval: 200}); 
-

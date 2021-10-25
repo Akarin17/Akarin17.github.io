@@ -131,7 +131,15 @@
                     
                     <div>
                         <h2 class="about__subtitle">I'am Febri</h2>
-                        <p class="about__text">I live in Indonesia and I'm still an unemployed youth</p>           
+                        <p class="about__text">I live in Indonesia and I'm still an unemployed youth</p><br><br><p>Wanna send me a message on whatsapp?</p>
+                        <textarea id="message" placeholder="Enter your message"></textarea><br>
+                        <button onclick="sendWa()">Send</button>
+                        <script>
+                            function sendWa(){
+                                var message = document.getElementById("message").value
+                                location.href = "https://wa.me/089626403721?text=" + message
+}
+                        </script>
                     </div>                                   
                 </div>
             </section>

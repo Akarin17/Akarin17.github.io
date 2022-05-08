@@ -70,10 +70,10 @@ a{
   text-decoration: none;
 }
 img{
-  border-radius: 40%;
-  max-width: 85%;
+  border-radius: 50%;
+  max-width: 100%;
   height: auto;
-  display: block;
+  display: 480px;
 }
 
 /*===== CSS ===== */

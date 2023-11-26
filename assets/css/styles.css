@@ -346,16 +346,16 @@ img{
   z-index: var(--z-back);
 }
 .skills__tidur{
-  width: 95%;
+  width: 50%;
 }
 .skills__makan{
-  width: 85%;
+  width: 40%;
 }
 .skills__scroll{
-  width: 65%;
+  width: 70%;
 }
 .skills__penyimak{
-  width: 85%;
+  width: 75%;
 }
 .skills__img{
   border-radius: .5rem;
